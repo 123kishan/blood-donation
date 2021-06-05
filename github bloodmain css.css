@@ -1,0 +1,271 @@
+body
+{
+}
+header
+{
+	text-align: center;
+	color: black;
+	background-color: violet;
+}
+.gridcontain
+{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 25px;
+}
+.container {
+  position: absolute;
+  right: 0;
+  margin-bottom: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: grey;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.grid2 img:hover
+{
+	opacity: 1;
+}
+button:hover
+{
+	background: red;
+}
+.grid:hover
+{
+	background-color: red;
+}
+.grid1:hover
+{
+background-color: purple;
+}
+.grid
+{
+	border: 1px solid grey;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 4px 5px grey;
+	background-color: orange;
+}
+.grid1
+{
+	background-color: pink;
+}
+.gridcontain4
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 25px;
+}
+.grid5
+{
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-row-gap: 25px;
+}
+.grid
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 25px;
+}
+.gridcontain2
+{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 25px;
+	margin-bottom: 0px;
+}
+.grid1
+{
+	text-align: center;
+	padding: 10px;
+}
+.gridcontain1
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 25px;
+}
+header img
+{
+	float: left;
+	width: 120px;
+}
+.logo
+{
+	float: top;
+}
+form
+{
+	margin-top: 75px;
+	margin-right: 20px;
+	float: right;
+	size: 50px;
+}
+textarea
+{
+	margin: 10px;
+	float: right;
+	background: goldenrod;
+	text-align: center;
+}
+.card2
+{
+	border: 1px solid black;
+	height: 200px;
+	background-color: greenyellow;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+
+}
+.nav {
+	overflow: hidden;
+  background-color: #333;
+}
+
+.nav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav1 {
+  float: left;
+  overflow: hidden;
+}
+
+.nav1 .btn1 {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.r
+{
+	margin-top: 70px;
+	float: right;
+}
+.nav .btn1:hover
+{
+background-color: blue;
+}
+.nav a:hover .btn1 {
+  background-color: red;
+}
+
+.drop1
+{
+	display: none;
+}
+.drop1 a
+{
+	display: block;
+	color: black;
+}
+.nav1:hover .drop1
+{
+	display: grid;
+	background: white;
+}
+.nav1 .nav1 a
+{
+	color: black;
+}
+.nav
+{
+	margin-top: 100px;
+}
+.l
+{
+margin-top: 50px; float: left; width: 200px; height: 50px; background: tomato;
+}
+.l:hover
+{
+	background: orange;
+}
+.j
+{
+	border: 1px solid black;
+	border-radius: 25px;
+	background: pink;
+	margin-top:200px;
+	margin-right: 0px;
+}
+.j:hover
+{
+	background: blue;
+}
+.find
+{
+	float: left;
+	border: 1px solid black;
+	margin: 10px;
+	width: 250px;
+	height: 250px;
+	background-color: mediumseagreen;
+}
+.nav a:hover
+{
+	background-color: red;
+	color: blue;
+}
+option
+{
+	display: block;
+}
+.card
+{
+background-image: url(newb2.jpg);
+background-size: 100%;
+height: 300px;
+border: 1px solid white;
+}
+h2
+{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.btn
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 40px;
+	width: 150px;
+	background-color: lightblue; 
+}
+.btn:hover
+{
+background-color: red;
+}
